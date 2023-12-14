@@ -53,7 +53,7 @@ app.post("/submit-form", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  return res.body("<h1>Hello</h1>");
+  return res.json("<h1>Hello</h1>");
 });
 
 app.listen(port, () => {
